@@ -21,3 +21,9 @@ To run your tests
 ### 401 Data Structures, Code Challenges
 
 - Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course.
+
+#Taable of Content:
+
+|Code Challenge  | LINK                          |
+|----------------|-------------------------------|
+|array-reverse   | [cc1](code-challenge/README.md)             |
