@@ -8,4 +8,4 @@ Approach: I used a for in loop that iterates the elements. Then, insert/add usin
 Efficiency: O(N), where n is the number of elements in the array.
 
 # Whiteboard:
-![Whiteboard Process]()
+![Whiteboard Process](cc1.jpg)
