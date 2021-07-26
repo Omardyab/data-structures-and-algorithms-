@@ -1,10 +1,10 @@
-# Code Challenge: Reverse an Array
-Write a function called reverseArray which takes an array as an argument. Without utilizing any of the built-in methods available to your language, return an array with elements in reversed order.
+# Code Challenge: InsertShiftArray
+Write a function called insertShiftArray which takes in an array and a value to be added. Without utilizing any of the built-in methods available to your language, return an array with the new value added at the middle index.
 
 
 # Approach & Efficiency
 
-Approach: I used a for in loop that iterates the elements. Then, insert/add using the .insert function
+Approach: I used a for in loop that iterates the elements. Then, insert/add using the .append function
 Efficiency: O(N), where n is the number of elements in the array.
 
 # Whiteboard:
