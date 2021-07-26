@@ -4,8 +4,8 @@ Write a function called insertShiftArray which takes in an array and a value to 
 
 # Approach & Efficiency
 
-Approach: I used a for in loop that iterates the elements. Then, insert/add using the .append function
-Efficiency: O(N), where n is the number of elements in the array.
+* Approach: I used a for in loop that iterates the elements. Then, insert/add using the .append function
+* Efficiency: O(N), where n is the number of elements in the array.
 
 # Whiteboard:
 ![Whiteboard Process](2ndlab.jpg)
