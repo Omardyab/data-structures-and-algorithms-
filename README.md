@@ -26,4 +26,5 @@ To run your tests
 
 |Code Challenge  | LINK                          |
 |----------------|-------------------------------|
-|array-reverse   | [cc1](code-challenge/README.md)             |
+|array-reverse   | [cc1](code-challenge/README.md) 
+|array-insert-shift|[cc2](code-challenge/array_insert_shift/readme.md)|
