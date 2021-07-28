@@ -26,7 +26,7 @@ To run your tests
 
 |Code Challenge  | LINK                          |
 |----------------|-------------------------------|
-|array-reverse   | [cc1](code-challenge/array_reverse/README.md)
-|array-insert-shift|[cc2](code-challenge/array_insert_shift/readme.md)|
-|Binary Search|[cc3](code-challenge/BinarySearch/Readme.md)|
+|array-reverse   | [cc1](python/code_challenges/code-challenge/array_reverse/README.md)
+|array-insert-shift|[cc2](python/code_challenges/code-challenge/array_insert_shift/readme.md)|
+|Binary Search|[cc3](python/code_challenges/code-challenge/BinarySearch/Readme.md)|
 
