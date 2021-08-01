@@ -3,7 +3,6 @@ class Node:
     def __init__(self, value):
         self.value = value
         self.next = None
-
 class Linkedlist:
     def __init__(self):
         self.head = None
@@ -49,9 +48,7 @@ class Linkedlist:
             result = result + f"({value}) -> "
             current_node=current_node.next
         return result
-
 if __name__ == "__main__":
-
     myll=Linkedlist()
     print("my linked list now have : ",myll)
     myll.insert(1)

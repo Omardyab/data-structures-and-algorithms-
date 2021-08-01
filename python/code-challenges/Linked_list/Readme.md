@@ -1,2 +1,0 @@
-Linked list
-poetry 

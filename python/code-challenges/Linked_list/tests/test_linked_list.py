@@ -4,12 +4,12 @@ from Linked_list import *
 
 # def test_version():
 #     assert __version__ == '0.1.0'
-
 def test_empty_l_list():
     emptylist=Linkedlist()
     actual=emptylist
     expected=''
     assert actual==expected
+
 
 def test_insert():
     myll = Linkedlist()
@@ -29,7 +29,9 @@ def test_head_node(myll):
     assert myll.head.value == 6
     assert myll.head.next.value == 54
 
+
 @pytest.fixture
+
 def myll():
     llist=Linkedlist()
     llist.insert(100)
