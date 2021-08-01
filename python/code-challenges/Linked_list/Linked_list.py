@@ -6,9 +6,9 @@ class Node:
 class Linkedlist:
     def __init__(self):
         self.head = None
-# """
-# define insert method which adds value in head
-# """
+    """
+    define insert method which adds value in head
+    """
     def insert(self, value='null'):
         try:
             first_node = Node(value)
@@ -20,9 +20,9 @@ class Linkedlist:
                 self.head.next = current_node
         except Exception as exception:
             raise Exception(f"its not working as it should be: {exception}")
-# """
-# define include method which check if value exisited (in this case return false) otherwise return True
-# """
+    """
+    define include method which check if value exisited (in this case return false) otherwise return True
+    """
     def includes(self, expectedvalue):
         try:
             current_node = self.head
@@ -34,9 +34,9 @@ class Linkedlist:
             return False
         except Exception as exception:
                 raise Exception(f"its not working as it should be: {exception}")
-# """
-# Visual representation of the linked list bubbles
-# """
+    """
+    Visual representation of the linked list bubbles
+    """
     def __str__(self):
         result = ""
         current_node = self.head
@@ -48,6 +48,7 @@ class Linkedlist:
             result = result + f"({value}) -> "
             current_node=current_node.next
         return result
+
 if __name__ == "__main__":
     myll=Linkedlist()
     print("my linked list now have : ",myll)
@@ -61,7 +62,8 @@ if __name__ == "__main__":
     print("my linked list now have : ",myll)
     myll.includes(9)
     print("my linked list now have : ",myll)
-    print(myll)
+
+
 
 
 
