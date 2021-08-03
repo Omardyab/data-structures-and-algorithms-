@@ -1,3 +1,4 @@
+
 # Singly Linked List
 <!-- Short summary or background information -->
 Linked List:is a special case of a tree.
@@ -13,3 +14,6 @@ O(N) for all functions
 insert=> adds value in head
 includes=> check if value exisited (in this case return false) otherwise return True
 __str__ => Visual representation of the linked list bubbles
+
+PR:https://github.com/Omardyab/data-structures-and-algorithms-/pull/20
+
