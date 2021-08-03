@@ -101,35 +101,62 @@ class Linkedlist:
                 break
             head_node=head_node.next
 
+    """code ch 8 linked_list_zip """
+    def linked_list_zip(self,f_list,s_list):
+        first_list=f_list.head
+        second_list=s_list.head
+        print(first_list.value)
+        print(second_list.value)
+        while first_list!=None:
+            first_list.insert_after(self,first_list.value,second_list.value)
+            print(first_list)
+            first_list.next
+
+
 
 
 if __name__ == "__main__":
+    myfl=Linkedlist()
+    myfl.insert(2)
+    myfl.insert(3)
+    myfl.insert(1)
+    myfl.insert_after(3,3)
+    print(myfl)
+    my2l=Linkedlist()
+    my2l.insert(4)
+    my2l.insert(9)
+    my2l.insert(5)
+    print(my2l)
+    myfl=Linkedlist().linked_list_zip(myfl,my2l)
+    # print(myfl)
 
-    myll=Linkedlist().__str__
-    # print("my linked list now have : ",myll)
-    # myll.insert(1)
-    # print("my linked list now have : ",myll)
-    # myll.insert(2)
-    # print("my linked list now have : ",myll)
-    # myll.insert(7)
-    # print("my linked list now have : ",myll)
-    # myll.includes(7)
-    # print("my linked list now have : ",myll)
-    # myll.includes(9)
-    # print("my linked list now have : ",myll)
-    # print(myll)
-    # myll.append(8)
-    # print(myll)
-    # myll.insert_before(2,1)
-    # print(myll)
-    # myll.insert_before(7,8)
-    # print(myll)
-    # myll.insert_before(1,5)
-    # print(myll)
-    # myll.insert_after(7,3)
-    # print(myll)
-    # myll.insert_after(3,4)
-    print(myll)
+
+# if __name__ == "__main__":
+#     myll=Linkedlist()
+#     print("my linked list now have : ",myll)
+#     myll.insert(1)
+#     print("my linked list now have : ",myll)
+#     myll.insert(2)
+#     print("my linked list now have : ",myll)
+#     myll.insert(7)
+#     print("my linked list now have : ",myll)
+#     myll.includes(7)
+#     print("my linked list now have : ",myll)
+#     myll.includes(9)
+#     print("my linked list now have : ",myll)
+#     print(myll)
+#     myll.append(8)
+#     print(myll)
+#     myll.insert_before(2,1)
+#     print(myll)
+#     myll.insert_before(7,8)
+#     print(myll)
+#     myll.insert_before(1,5)
+#     print(myll)
+#     myll.insert_after(7,3)
+#     print(myll)
+#     myll.insert_after(3,4)
+#     print(myll)
 
 
 
