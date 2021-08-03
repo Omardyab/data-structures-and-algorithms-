@@ -1,6 +1,6 @@
 # testing code ch 5 linkdist
 import pytest
-from linked_list.linked_list import *
+from Linked_list import *
 # from linked_list.linked_list import *
 # from Linked_list import __version__
 
@@ -11,6 +11,8 @@ def test_empty_l_list():
     emptylist=Linkedlist()
     actual=emptylist
     assert actual==None
+
+
 # def test_version():
 #     assert __version__ == '0.1.0'
 def test_empty_l_list():
