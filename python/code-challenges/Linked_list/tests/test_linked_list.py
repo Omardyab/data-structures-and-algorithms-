@@ -38,3 +38,17 @@ def myll():
     llist.insert(54)
     llist.insert(6)
     return llist
+
+
+    """ code ch 7 tests"""
+def knth_from_end():
+    ll=Linkedlist()
+    ll.insert(1)
+    ll.insert(3)
+    ll.insert(8)
+    ll.insert(2)
+    assert ll.knth_from_end(-1)=="This is not a positive value"
+    assert ll.knth_from_end(8)=="The value you have is out of the given range"
+    assert ll.knth_from_end(0)==1
+    assert ll.knth_from_end(1)==3
+
