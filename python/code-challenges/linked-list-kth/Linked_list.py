@@ -98,8 +98,6 @@ if __name__ == "__main__":
     # myll.includes(9)
     # print("my linked list now have : ",myll)
     # print(myll)
-
-
     """this is for code ch 7"""
     ll=Linkedlist()
     ll.insert(1)

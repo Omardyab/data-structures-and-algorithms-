@@ -58,7 +58,7 @@ class Linkedlist:
     def knth_from_end(self, k_value):
         current_node = self.head
         len_list=self.length_list_nodes(current_node)-1
-        # print("original list length",len_list)
+        print("original list length",len_list)
         # print("the length of my list is",len_list)
         try:
             if current_node==None:
@@ -67,7 +67,10 @@ class Linkedlist:
                 return ("This is not a positive value")
             elif k_value>len_list:
                 return ("Out of the given range")
-
+            elif k_value==len_list+1:
+                return current_node.value
+            elif len_list+1==1:
+                return current_node.value, "same as your list length"
             else:
                 idx=(len_list)-k_value
                 count=0
@@ -121,8 +124,8 @@ if __name__ == "__main__":
 
     print(ll2)
     # 7 -> 6 ->5-> None
-    # print(ll2.knth_from_end(-4))
-    # print(ll2.knth_from_end(4))
+    print(ll2.knth_from_end(-4))
+    print(ll2.knth_from_end(4))
     print(ll2.knth_from_end(-2))
     print(ll2.knth_from_end(1))
     print(ll2.knth_from_end(0))
