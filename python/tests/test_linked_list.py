@@ -1,14 +1,21 @@
+<<<<<<< HEAD
 # # testing code ch 5 linkdist
 # import pytest
 
 # from linked_list.linked_list import *
 
+=======
+# import pytest
+# from Linked_list import *
+# # from Linked_list import __version__
+>>>>>>> main
 
 # # def test_version():
 # #     assert __version__ == '0.1.0'
 # def test_empty_l_list():
 #     emptylist=Linkedlist()
 #     actual=emptylist
+<<<<<<< HEAD
 #     assert actual==None
 # # def test_version():
 # #     assert __version__ == '0.1.0'
@@ -18,15 +25,26 @@
 #     expected=None
 #     assert actual==expected
 
+=======
+#     expected=''
+#     assert actual==expected
+
+
+>>>>>>> main
 # def test_insert():
 #     myll = Linkedlist()
 #     myll.insert(12)
 #     actual =myll.head.value
+<<<<<<< HEAD
 #     actualnext=myll.head.next
 #     expected=12
 #     expectednext=None
 #     assert actual==expected
 #     assert actualnext==expectednext
+=======
+#     expected=12
+#     assert actual==expected
+>>>>>>> main
 
 # def test_linked_states(myll):
 #     assert str(myll) == f"(6) -> (54) -> (100)-> None"
@@ -38,6 +56,7 @@
 # def test_head_node(myll):
 #     assert myll.head.value == 6
 #     assert myll.head.next.value == 54
+<<<<<<< HEAD
 # def test_falsy_values():
 #     myll2=Linkedlist()
 #     myll2.insert('12')
@@ -46,6 +65,12 @@
 #     assert actual==False
 
 # @pytest.fixture
+=======
+
+
+# @pytest.fixture
+
+>>>>>>> main
 # def myll():
 #     llist=Linkedlist()
 #     llist.insert(100)
@@ -53,6 +78,7 @@
 #     llist.insert(6)
 #     return llist
 
+<<<<<<< HEAD
 # # testing code ch 6 linkdistinsertion
 # def test_append():
 #     myll3=Linkedlist()
@@ -66,3 +92,22 @@
 #     myll4.append(66)
 #     myll4.insert_before(66,55)
 #     assert myll4.head.next.value==55
+=======
+
+#     """ code ch 7 tests"""
+# def knth_from_end():
+#     ll=Linkedlist()
+#     ll.insert(1)
+#     ll.insert(3)
+#     ll.insert(8)
+#     ll.insert(2)
+#     assert ll.knth_from_end(-1)=="This is not a positive value"
+#     assert ll.knth_from_end(8)=="The value you have is out of the given range"
+#     assert ll.knth_from_end(0)==1
+#     assert ll.knth_from_end(1)==3
+
+
+    # code ch 10 tests
+
+
+>>>>>>> main
