@@ -16,7 +16,7 @@ stack:
 - push: add node
 - pop: delete node
 - is_empty: check if the stack is empty
-- peek: viewing the value of the top Nod
+- peek: viewing the value of the top Node
 
 queue:
 - push: add node to rear

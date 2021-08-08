@@ -1,5 +1,5 @@
 import pytest
-from Linked_list import *
+from  data-structures-and-algorithms-.python.code-challenges.code-challenges.stacks_and_queues.stacks_and_queues import *
 # from Linked_list import __version__
 
 # def test_version():
@@ -30,29 +30,30 @@ def test_head_node(myll):
     assert myll.head.next.value == 54
 
 
-@pytest.fixture
+# @pytest.fixture
+# def myll():
+#     llist=Linkedlist()
+#     llist.insert(100)
+#     llist.insert(54)
+#     llist.insert(6)
+#     return llist
 
-def myll():
-    llist=Linkedlist()
-    llist.insert(100)
-    llist.insert(54)
-    llist.insert(6)
-    return llist
 
-
-    """ code ch 7 tests"""
-def knth_from_end():
-    ll=Linkedlist()
-    ll.insert(1)
-    ll.insert(3)
-    ll.insert(8)
-    ll.insert(2)
-    assert ll.knth_from_end(-1)=="This is not a positive value"
-    assert ll.knth_from_end(8)=="The value you have is out of the given range"
-    assert ll.knth_from_end(0)==1
-    assert ll.knth_from_end(1)==3
+#     """ code ch 7 tests"""
+# def knth_from_end():
+#     ll=Linkedlist()
+#     ll.insert(1)
+#     ll.insert(3)
+#     ll.insert(8)
+#     ll.insert(2)
+#     assert ll.knth_from_end(-1)=="This is not a positive value"
+#     assert ll.knth_from_end(8)=="The value you have is out of the given range"
+#     assert ll.knth_from_end(0)==1
+#     assert ll.knth_from_end(1)==3
 
 
     # code ch 10 tests
+
     
+
 
