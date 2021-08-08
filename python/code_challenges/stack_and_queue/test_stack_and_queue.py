@@ -41,6 +41,7 @@ def test_stack_peek():
     stack.push(600)
     assert stack.peek() == 600
 
+
 # instantiate
 def test_stack_instantiate():
     stack = Stack()

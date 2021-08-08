@@ -16,7 +16,7 @@ List class:
 
 ## Whiteboard Process
 <!-- Embedded whiteboard image -->
-
+![Whiteboard Process](cc6.jpg)
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
 space : O(1) time : O(n) for all methods
