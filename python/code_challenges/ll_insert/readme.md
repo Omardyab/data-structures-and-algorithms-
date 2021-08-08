@@ -1,6 +1,8 @@
 # Challenge Summary
 <!-- Description of the challenge -->
-Write the following methods for the Linked List class:
+Write the following methods for the Linked list
+
+List class:
 
     append
             arguments: new value
@@ -14,7 +16,6 @@ Write the following methods for the Linked List class:
 
 ## Whiteboard Process
 <!-- Embedded whiteboard image -->
-
 
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
