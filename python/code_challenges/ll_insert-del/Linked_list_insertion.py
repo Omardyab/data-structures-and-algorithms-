@@ -104,8 +104,7 @@ class Linkedlist:
 
 
 if __name__ == "__main__":
-
-    myll=Linkedlist().__str__
+    myll=Linkedlist()
     print("my linked list now have : ",myll)
     myll.insert(1)
     print("my linked list now have : ",myll)
@@ -130,6 +129,11 @@ if __name__ == "__main__":
     print(myll)
     myll.insert_after(3,4)
     print(myll)
+
+
+
+
+
 
 
 
