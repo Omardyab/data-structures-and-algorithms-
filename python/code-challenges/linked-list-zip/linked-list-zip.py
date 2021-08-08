@@ -1,3 +1,4 @@
+
 class Node:
     def __init__(self, value):
         self.value = value
@@ -145,28 +146,82 @@ class Linkedlist:
 
     """code ch 8 linked_list_zip """
     def linked_list_zip(self,f_list,s_list):
-        first_list=f_list.head
-        second_list=s_list.head
-        print(first_list.value)
-        print(second_list.value)
-        while first_list!=None:
-            print(first_list.value)
-            first_list.next.value=second_list.value
-            print(first_list.value)
-            second_list.next
-            first_list.next
-            break
-if __name__ == "__main__":
-    myfl=Linkedlist()
-    myfl.insert(2)
-    myfl.insert(3)
-    myfl.insert(1)
-    # myfl.insert_after(3,3)
-    print(myfl)
-    my2l=Linkedlist()
-    my2l.insert(4)
-    my2l.insert(9)
-    my2l.insert(5)
-    print(my2l)
-    result=Linkedlist().linked_list_zip(myfl,my2l)
-    print(result)
+        f_list=f_list.head
+        s_list=s_list.head
+        print("first value ",f_list.value)
+        print("second value ",s_list.value)
+        while f_list !=None:
+            # print(first_list.next.value)
+            saved_value=f_list.next.value
+            saved_value_2=f_list.next.next.value
+            print("your saved value",saved_value)
+            print("your saved value",saved_value_2)
+            # print(type(saved_value))
+            f_list.next.value=s_list.value
+            f_list.next.next=saved_value
+            # print("taken value",f_list.next.value)
+            print(f_list.value)
+            s_list=s_list.next
+            f_list=f_list.next
+
+
+    def pal(self,pal_list):
+        mylist=[]
+        if pal_list== None:
+            return False
+        if pal_list.length_list_nodes==1:
+            if pal_list.next.value==None:
+                return False
+        current_node = pal_list.head
+        while current_node:
+            mylist+=[current_node.value]
+            print("current value",mylist)
+            current_node=current_node.next
+            # print(current_node.value)
+        for i in range(len(mylist)//2):
+            if mylist[i]!=mylist[-1*i-1]:
+                return False
+            # print("first list",mylist[i])
+            # print("2nd ",mylist[-1*i-1])
+        return True
+
+
+# if __name__ == "__main__":
+
+#     ll = LinkedList()
+#     ll.append(1)
+#     ll.append(2)
+#     ll.append(3)
+#     ll.append(2)
+#     ll.append(1)
+
+#     # ll.append(1)
+#     # ll.append(4)
+#     # print(ll.__str__())
+#     print(palindrome(ll))
+
+# // call it on a instance of that class
+myfl=Linkedlist()
+myfl.insert("t")
+myfl.insert("o")
+myfl.insert("t")
+# myfl.insert(2)
+# myfl.insert(3)
+# myfl.insert(1)
+print(myfl)
+# myfl.insert_after(3,3)
+print(myfl.pal(myfl))
+# print(my2l)
+# print(pal(myfl))
+my2l=Linkedlist()
+my2l.insert(1)
+# my2l.insert(3)
+# my2l.insert(2)
+# my2l.insert(2)
+# my2l.insert(3)
+# my2l.insert(1)
+print(my2l)
+# myfl.insert_after(3,3)
+print(my2l.pal(my2l))
+
+# interview with Nura link :https://docs.google.com/spreadsheets/d/13jw2ZSK6Q9mUuiLgoP3DKosEhRicc7FFkOxseWRlqn8/edit#gid=0

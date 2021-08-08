@@ -1,7 +1,11 @@
 # testing code ch 5 linkdist
 import pytest
 
+from linked_list.linked_list import
+
+
 from linked_list.linked_list import *
+
 # from linked_list.linked_list import *
 
 from Linked_list import *
